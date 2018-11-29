@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>A Cappella Championships</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class='main'>
-      <h1 class='padding margin'>Collegiate A Cappella Awards</h1>
+    <div class="main">
+      <h1 class="padding margin">Collegiate A Cappella Awards</h1>
       <div class="padding margin border-round border-grey">
-        <h2 id='winner' class="padding yellow border-round">
-          Winner:
-        </h2>
+        <h2 id="winner" class="padding yellow border-round">Winner:</h2>
       </div>
-      <table class='width-75 margin' border="1">
-        <thead class='blue'>
-          <tr class='padding'>
-            <th class='padding center'>College</th>
-            <th class='padding center'>Group Name</th>
-            <th class='padding center'>Membership</th>
-            <th class='padding center'>Division</th>
-            <th class='padding center'>Crown as Winner</th>
-            <th class='padding center'>Delete Group</th>
+      <table class="width-75 margin" border="1">
+        <thead class="blue">
+          <tr class="padding">
+            <th class="padding center" id="college-header">College</th>
+            <th class="padding center" id="name-header">Group Name</th>
+            <th class="padding center" id="membership-header">Membership</th>
+            <th class="padding center" id="division-header">Division</th>
+            <th class="padding center">Crown as Winner</th>
+            <th class="padding center">Delete Group</th>
           </tr>
         </thead>
-        <tbody id="table-body">
-        </tbody>
+        <tbody id="table-body"></tbody>
       </table>
     </div>
     <script src="./src/index.js"></script>
